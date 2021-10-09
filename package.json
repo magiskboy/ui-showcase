@@ -1,0 +1,19 @@
+{
+  "name": "web-design-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "sass src",
+    "start": "concurrently \"sass -w src\" \"live-server src -w\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "live-server": "^1.2.1"
+  }
+}
